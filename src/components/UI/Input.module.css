@@ -1,0 +1,36 @@
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+  
+.input label {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+  
+.input input {
+    width: 2rem;
+    border-radius: 5px;
+    border: 1px solid #49111C;
+    font: inherit;
+    padding-left: 0.65rem;
+    background-color: #f2f4f3;
+}
+
+.input input:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 0px 1px #49111C;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
